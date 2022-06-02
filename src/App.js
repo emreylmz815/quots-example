@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Quots from './Quots';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <>
+    <div className='fl-bg'>
+      <div className='quats'>
+        <div className='quats-log'>
+        </div>
+          <h1><Quots/></h1>
+      </div>
     </div>
+   </>
   );
 }
 
